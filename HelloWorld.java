@@ -1,5 +1,10 @@
 public class HelloWorld {
     public static void main(String[] args){
-       System.out.println("Hello, World4");
+	int num = 5;
+        if(num == 5){
+		System.out.println("numは5です");
+	}else{
+		System.out.println("numは5ではありません");
+	}
     }
 }
